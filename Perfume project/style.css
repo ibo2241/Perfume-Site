@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    width: 550px;
+    height: 420px;
+    position: absolute;
+    left: 33%;
+    top: 21%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+#sekil{
+    position: relative;
+    width: 265px;
+    border-radius:10px 0px 0px 10px ;
+    object-fit: cover;
+}
+#perfume{
+    padding: 25px 0px 10px 25px;
+    font-weight: 390;
+    font-size: 13px;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    padding-left: 25px;
+}
+#paraqraf{
+    padding: 20px 25px;
+    font-size: 14px;
+    font-weight: 390;
+    line-height: 20px;
+}
+#qiymet{
+    color: hsl(158, 36%, 37%);
+}
+#qiymetler{
+    display: flex;
+}
+h5{
+    padding-left: 20px;
+    padding-top: 8px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+button{
+    margin-left:25px;
+    margin-top:20px ;
+    text-align: center;
+    align-items: center;
+    padding: 15px 70px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;  
+    border: none;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button a img{
+    align-items: center;
+    margin-right: 5px;
+    text-align: center;
+}
+button:hover{
+    background-color: hsl(159, 42%, 20%);
+}
